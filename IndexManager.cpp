@@ -2,8 +2,8 @@
 //  IndexManager.cpp
 //  Minisql
 //
-//  Created by xuyuhao on 14/11/14.
-//  Copyright (c) 2014年 xuyuhao. All rights reserved.
+//  Created by 陈泓宇 on 2017/6/20.
+//  Copyright (c) 2017年 陈泓宇. All rights reserved.
 //
 
 #include "IndexManager.h"

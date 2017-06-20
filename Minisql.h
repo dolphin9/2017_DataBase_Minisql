@@ -2,8 +2,8 @@
 //  Minisql.h
 //  Minisql
 //
-//  Created by xuyuhao on 14/11/2.
-//  Copyright (c) 2014年 xuyuhao. All rights reserved.
+//  Created by 陈泓宇 on 20/6/2017.
+//  Copyright (c) 2014年 陈泓宇. All rights reserved.
 //
 
 #ifndef Minisql_Minisql_h

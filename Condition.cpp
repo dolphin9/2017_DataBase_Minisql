@@ -2,8 +2,8 @@
 //  Condition.cpp
 //  minisql
 //
-//  Created by 邓永辉 on 14/11/10.
-//  Copyright (c) 2014年 邓永辉. All rights reserved.
+//  Created by 陈泓宇 on 17/16/21.
+//  Copyright (c) 2017年 陈泓宇. All rights reserved.
 //
 
 #include "Condition.h"

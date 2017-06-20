@@ -3,8 +3,8 @@
 //  Minisql
 //  Description: Provide functions to manage the indexs.
 //
-//  Created by xuyuhao on 14/11/14.
-//  Copyright (c) 2014年 xuyuhao. All rights reserved.
+//  Created by 陈泓宇 on 20/6/2017.
+//  Copyright (c) 2017年 陈泓宇. All rights reserved.
 //
 
 #ifndef __Minisql__IndexManager__

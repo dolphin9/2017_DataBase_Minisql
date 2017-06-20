@@ -2,8 +2,8 @@
 //  Condition.h
 //  minisql
 //
-//  Created by 邓永辉 on 14/11/4.
-//  Copyright (c) 2014年 邓永辉. All rights reserved.
+//  Created by 陈泓宇 on 2017/6/19.
+//  Copyright (c) 2017年 陈泓宇. All rights reserved.
 //
 
 #ifndef minisql_Condition_h

@@ -3,8 +3,8 @@
 //  Minisql
 //  Description: The basic b+ tree implement of template.
 //
-//  Created by xuyuhao on 14/11/8.
-//  Copyright (c) 2014年 xuyuhao. All rights reserved.
+//  Created by 陈泓宇 on 2017/6/20.
+//  Copyright (c) 2014年 陈泓宇. All rights reserved.
 //
 
 #ifndef __Minisql__BPlusTree__
