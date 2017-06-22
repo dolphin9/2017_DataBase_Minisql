@@ -44,7 +44,7 @@ extern clock_t start;
 extern void print();//main.cpp,输出时间间隔
 
 #define MAX_FILE_NUM 40
-#define MAX_BLOCK_NUM 3
+#define MAX_BLOCK_NUM 300
 #define MAX_FILE_NAME 100
 
 #endif

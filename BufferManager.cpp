@@ -313,22 +313,23 @@ blockNode* BufferManager::getBlock(fileNode * file,blockNode *position, bool if_
  */
 void BufferManager::writtenBackToDisk(const char* fileName,blockNode* block)
 {
-    if(!block->dirty) // this block is not been modified, so it do not need to written back to files
+    /*if(!block->dirty) // this block is not been modified, so it do not need to written back to files
     {
         return;
     }
     else // written back to the file
-    {
+    {*/
         FILE * fileHandle = NULL;
         if((fileHandle = fopen(fileName, "rb+")) != NULL)
         {
             if(fseek(fileHandle, block->offsetNum*BLOCK_SIZE, 0) == 0)
             {
+		
                 if(fwrite(block->address, block->using_size+sizeof(size_t), 1, fileHandle) != 1)
                 {
                     printf("Problem writing the file %s in writtenBackToDisking",fileName);
                     exit(1);
-                }
+				}
             }
             else
             {
@@ -342,7 +343,7 @@ void BufferManager::writtenBackToDisk(const char* fileName,blockNode* block)
             printf("Problem opening the file %s in writtenBackToDisking",fileName);
             exit(1);
         }
-    }
+   // }
 }
 
 /**
@@ -410,20 +411,20 @@ blockNode* BufferManager::getNextBlock(fileNode* file,blockNode* block)
  */
 blockNode* BufferManager::getBlockHead(fileNode* file)
 {
-    blockNode* btmp = NULL;
+	blockNode* btmp = NULL;
     if(file->blockHead != NULL)
     {
         if(file->blockHead->offsetNum == 0) //The right offset of the first block
-        {
+		{
             btmp = file->blockHead;
         }
         else
-        {
+		{
             btmp = getBlock(file, NULL);
         }
     }
     else// If the file have no block head, get a new block node for it
-    {
+	{
         btmp = getBlock(file,NULL);
     }
     return btmp;

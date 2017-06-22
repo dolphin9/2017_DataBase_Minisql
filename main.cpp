@@ -56,7 +56,9 @@ int main(int argc,char * argv[])
     cout<<"********* Author: Chen hy &Peng zy & Chen yl & Zhong fy  **********"<<endl;
     int fileRead = 1;
 	string fileN = "";
-    string fileName ="F:\\3130000240\\test.sql";
+    string fileName ="";
+
+	cin >> fileName;
     ifstream file;
     Interpreter in(fileName);
     in.ap = &api;
@@ -67,7 +69,6 @@ int main(int argc,char * argv[])
     {
         if(fileRead)
         {
-			
             file.open(in.fileName.c_str());
             if(!file.is_open())
             {

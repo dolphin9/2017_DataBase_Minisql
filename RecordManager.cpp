@@ -102,7 +102,7 @@ int RecordManager::recordInsert(string tableName,char* record, int recordSize)//
         }
         if (bm.get_usingSize(*btmp) <= bm.getBlockSize() - recordSize)
         {
-
+			
             char* addressBegin;
             addressBegin = bm.get_content(*btmp) + bm.get_usingSize(*btmp);//块节点开始指针+已使用的
             memcpy(addressBegin, record, recordSize);//
