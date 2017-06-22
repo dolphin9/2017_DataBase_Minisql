@@ -1,10 +1,3 @@
-//
-//  Condition.cpp
-//  minisql
-//
-//  Created by 陈泓宇 on 17/16/21.
-//  Copyright (c) 2017年 陈泓宇. All rights reserved.
-//
 
 #include "Condition.h"
 bool Condition::ifRight(int content)
